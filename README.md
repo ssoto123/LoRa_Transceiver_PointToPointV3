@@ -95,6 +95,6 @@ La librería `LoRa.h` antigua funcionaba como un `Serial.print` (stream). En la 
 ## 👤 Créditos
 
 **Autor:** MGTI. Saúl Isaí Soto Ortiz  
-**Asignatura:** Sistemas de Sensores - Maestría en IoT  
+**Asignatura:** Sistemas de Sensores - Maestría en IoT , Tec. Inalámbricas e Internet de las Cosas para ITSOEH.
 
 > *Este código es educativo y utiliza la banda ISM de 915MHz. Asegúrese de conectar la antena antes de energizar la placa para evitar daños en el chip de radio.*

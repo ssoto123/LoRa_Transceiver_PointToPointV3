@@ -45,6 +45,7 @@ A diferencia de la V2, en la V3 debemos "mapear" manualmente los pines del chip 
 // NSS: Chip Select | DIO1: Interrupción | RST: Reset | BUSY: Estado
 SX1262 radio = new Module(8, 14, 12, 13);
 
+```markdown
 ### 2. Transmisión por Buffer (Arrays)
 La librería `LoRa.h` antigua funcionaba como un `Serial.print` (stream). En la V3 con RadioLib, usamos un **Buffer de Memoria**.
 
@@ -95,5 +96,6 @@ La librería `LoRa.h` antigua funcionaba como un `Serial.print` (stream). En la 
 ## 👤 Créditos
 
 **Autor:** MGTI. Saúl Isaí Soto Ortiz  
+**Asignatura:** Sistemas de Sensores - Maestría en IoT  
 
 > *Este código es educativo y utiliza la banda ISM de 915MHz. Asegúrese de conectar la antena antes de energizar la placa para evitar daños en el chip de radio.*
